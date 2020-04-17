@@ -1,0 +1,45 @@
+// Create structor folder
+omnifood
+    css
+        style.css
+        img
+    js
+    data
+    img
+vendors
+    css
+    js
+    fonts
+
+html
+
+
+// css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'lato', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+// Three ingredients to responsive webdisign
+1. fluid grid: all layout elements are sized in relative unites, such as percentages, instead of absolute units like pixels
+2. Flexible images: are also sized in relative unites
+3. Media queries: allow us to specify different Css style rules for different browser widths
+
+
+// Github
+1. git init
+2. git remote add origin https://github.com/TungPham97/omnifood.git
+3. git push -u origin master
+4. git checkout -b feature/...
+5. git push origin feature/...
