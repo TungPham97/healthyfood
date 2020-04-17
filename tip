@@ -43,3 +43,7 @@ html {
 3. git push -u origin master
 4. git checkout -b feature/...
 5. git push origin feature/...
+
+
+// text-align
+- text-align property doesn't work only for text it actually does work for all inline or inline block elements and image is one of those inline block elements.
