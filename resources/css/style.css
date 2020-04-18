@@ -39,7 +39,7 @@ html {
 }
 
 section {
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 .box {
@@ -104,7 +104,38 @@ h2::after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    display: inline-block;
+    color: #e67e22;
+    width: 30px;
+    font-size: 120%;
+    margin-right: 5px;
+    /* secret align text and icon */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+/* -----LINK-----*/
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+
 /* -----BUTTON-----*/
+
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -209,6 +240,10 @@ header {
 /* ---------------------------------------- */
 /* MEALS */
 /* ---------------------------------------- */
+.section-meals {
+    padding: 0;
+}
+
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -244,6 +279,9 @@ header {
 /* ---------------------------------------- */
 /* HOW IT WORKS */
 /* ---------------------------------------- */
+.section-steps {
+    background-color: rgb(238, 237, 237);
+}
 
 .steps-box:first-child {
     text-align: right;
@@ -274,7 +312,8 @@ header {
     display: inline-block;
     border-radius: 50%;
     height: 50px;
-    width: 50px;text-align: center;
+    width: 50px;
+    text-align: center;
     float: left;
     font-size: 150%;
     padding: 5px;
@@ -285,4 +324,23 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+/* ---------------------------------------- */
+/* CITIES */
+/* ---------------------------------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
 }
